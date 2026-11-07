@@ -1,0 +1,23 @@
+{
+  "NOTICE": "FICTIONAL SYNTHETIC DEMONSTRATION DATA - NOT OPTN/SRTR STATISTICS",
+  "records": [
+    {
+      "year": 2022,
+      "country": "US",
+      "deceased_donor_rate_per_million": 39.2,
+      "living_donor_rate_per_million": 18.0
+    },
+    {
+      "year": 2023,
+      "country": "US",
+      "deceased_donor_rate_per_million": 40.0,
+      "living_donor_rate_per_million": 18.4
+    },
+    {
+      "year": 2024,
+      "country": "US",
+      "deceased_donor_rate_per_million": 40.8,
+      "living_donor_rate_per_million": 18.8
+    }
+  ]
+}

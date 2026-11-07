@@ -1,0 +1,2 @@
+# Core ETL uses the Python 3.10+ standard library only.
+# No installation necessary for: python -m kidney_wait.pipeline

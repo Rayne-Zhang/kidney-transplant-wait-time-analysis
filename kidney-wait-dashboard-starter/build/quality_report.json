@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-11-07T01:43:48.465983+00:00",
+  "prototype_phase": "INITIAL_STARTER_REPOSITORY",
+  "all_inputs_synthetic": true,
+  "contains_synthetic_data": true,
+  "inputs": {
+    "provincial": {
+      "filename": "DEMO_canada_provincial.csv",
+      "source_status": "SYNTHETIC_DEMO"
+    },
+    "national": {
+      "filename": "DEMO_canada_national.csv",
+      "source_status": "SYNTHETIC_DEMO"
+    },
+    "us": {
+      "filename": "DEMO_us_benchmarks.json",
+      "source_status": "SYNTHETIC_DEMO"
+    },
+    "policy": {
+      "filename": "DEMO_policy_notes.html",
+      "source_status": "SYNTHETIC_DEMO"
+    }
+  },
+  "rows": {
+    "provincial": 12,
+    "national": 3,
+    "us": 3,
+    "policy": 3
+  },
+  "comparability": {
+    "country_benchmark_common_years": [
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "warnings": [
+    "DEMO DATA WARNING: At least one input is fictional. Do not report metrics as real kidney transplant facts.",
+    "Live HTTP/API acquisition and official source verification are NOT implemented in this prototype.",
+    "Cross-border comparisons require matching population, definitions, reporting periods and inclusion criteria before use with real datasets."
+  ]
+}

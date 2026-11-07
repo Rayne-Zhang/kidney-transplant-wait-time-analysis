@@ -1,0 +1,4 @@
+year,country,waitlist_patients,transplants,waitlist_deaths,median_dialysis_to_transplant_years,deceased_donor_rate_per_million,living_donor_rate_per_million
+2022,CAN,7500,3300,195,4.2,24.4,13.8
+2023,CAN,7640,3375,202,4.1,25.0,14.1
+2024,CAN,7780,3450,209,4.0,25.6,14.4

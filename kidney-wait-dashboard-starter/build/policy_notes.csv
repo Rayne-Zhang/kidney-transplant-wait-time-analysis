@@ -1,0 +1,4 @@
+province,policy_note,source_status
+ON,EXAMPLE ONLY: A future verified Ontario policy page will be parsed and documented here.,SYNTHETIC_DEMO
+QC,EXAMPLE ONLY: A future verified Quebec policy page will be parsed and documented here.,SYNTHETIC_DEMO
+BC,EXAMPLE ONLY: A future verified British Columbia policy page will be parsed and documented here.,SYNTHETIC_DEMO
