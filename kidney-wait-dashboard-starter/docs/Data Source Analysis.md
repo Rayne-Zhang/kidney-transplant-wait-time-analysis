@@ -23,12 +23,10 @@ To evaluate provincial wait-time disparities and benchmark Canadian performance 
 
 CIHI statistics report provincial medians and annual aggregate counts, whereas SRTR reports rate-based metrics per million population (PMP). To avoid mathematical distortion, provincial medians are kept at their native grain and are never averaged into synthetic national metrics.
 
-## 2.2 Cross-Border Comparability Rules
+<br/> **2.2  Cross-Border Comparability Rules**
 
 Direct comparisons (e.g., Canadian donation rank of 12th vs. U.S. rank of 2nd for deceased / 6th for living donors) are executed only where indicator definitions and reporting periods align. Incompatible or mismatched metrics are flagged or excluded to prevent misleading policy conclusions.
 
-##
-
-<br/><br/>2.3 Database Schema Storage
+<br/> **2.3 Database Schema Storage**
 
 Raw files and API responses are cleaned via Python (Pandas) and stored in normalized MySQL dimension tables (Dim_Geography, Dim_Time, Dim_Donor_Type) connected to an Observation-grain fact table to ensure 100% data traceability and query integrity
