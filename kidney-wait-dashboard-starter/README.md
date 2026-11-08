@@ -8,7 +8,7 @@
 
 ## Find the project files
 
-The working project currently resides in the [`kidney-wait-dashboard-starter/`](kidney-wait-dashboard-starter/) folder:
+The project files are organized as follows:
 
 | Location | Purpose |
 | --- | --- |
@@ -45,9 +45,9 @@ py -m streamlit run dashboard/app.py
 
 ## Midterm evidence and roles
 
-- [Task plan and proposed team responsibilities](kidney-wait-dashboard-starter/docs/TEAM_TASKS.md)
-- [Midterm evidence checklist](kidney-wait-dashboard-starter/docs/MIDTERM_EVIDENCE_CHECKLIST.md)
-- [Architecture](kidney-wait-dashboard-starter/docs/ARCHITECTURE.md)
+- [Task plan and proposed team responsibilities](docs/TEAM_TASKS.md)
+- [Midterm evidence checklist](docs/MIDTERM_EVIDENCE_CHECKLIST.md)
+- [Architecture](docs/ARCHITECTURE.md)
 - [AI assistance and verification note](docs/AI_ASSISTANCE_NOTE.md)
 
 This root-level README was added to help reviewers navigate the existing nested project directory; no historical development or team contribution is implied.
