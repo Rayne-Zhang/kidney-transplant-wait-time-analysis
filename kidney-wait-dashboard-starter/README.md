@@ -2,7 +2,7 @@
 
 **Course:** BSMM 8730 — Data Acquisition and Management (Fall 2026), University of Windsor  
 **Project:** *Why Are Patients Waiting So Long to Get New Kidneys in Canada?*  
-**Repository status:** Initial AI-assisted technical **prototype**; not a completed study or final Power BI deliverable.
+**Repository status:** Midterm technical prototype using synthetic data. Official data analysis and the final Power BI dashboard remain in progress.
 
 > **Important:** All bundled observations and policy notes are **synthetic demonstration data**. They are fictional and must **not** be described as actual CIHI/OPTN/SRTR findings. This repository does not contain patient records or an authenticated healthcare analysis.
 
@@ -21,7 +21,7 @@ The working project currently resides in the [`kidney-wait-dashboard-starter/`](
 | [`tests/`](kidney-wait-dashboard-starter/tests/) | Automated unit tests |
 | [`docs/`](kidney-wait-dashboard-starter/docs/) | Architecture, data dictionary, planned team roles, evidence checklist |
 
-Read the [full project README](kidney-wait-dashboard-starter/README.md) for instructions, limitations and disclosure of AI assistance.
+Read the [architecture documentation](docs/ARCHITECTURE.md) for implementation details, project limitations, and next steps.
 
 ## Reproduce the current Python checks
 
@@ -48,6 +48,6 @@ py -m streamlit run dashboard/app.py
 - [Task plan and proposed team responsibilities](kidney-wait-dashboard-starter/docs/TEAM_TASKS.md)
 - [Midterm evidence checklist](kidney-wait-dashboard-starter/docs/MIDTERM_EVIDENCE_CHECKLIST.md)
 - [Architecture](kidney-wait-dashboard-starter/docs/ARCHITECTURE.md)
-- [AI assistance note](kidney-wait-dashboard-starter/docs/AI_ASSISTANCE_NOTE.md)
+- [AI assistance and verification note](docs/AI_ASSISTANCE_NOTE.md)
 
 This root-level README was added to help reviewers navigate the existing nested project directory; no historical development or team contribution is implied.
