@@ -4,7 +4,7 @@
 
 Finalized team proposal: CIHI structured tables + U.S. OPTN/SRTR JSON/API + official provincial web policy pages → Python cleaning → MySQL → Power BI, managed through GitHub + ClickUp.
 
-Implemented **today in this new starter**:
+Implemented in the current midterm prototype:
 
 ```text
 LOCAL DEMO canada_provincial.csv ─┐
@@ -28,4 +28,4 @@ LOCAL DEMO policy_notes.html    ──┘                   │                 
 3. Implement audited data acquisition rather than manual staging, including error handling and reproducibility.
 4. Validate data against published counts and rates; add non-synthetic regression fixtures.
 5. Create the final Power BI `.pbix`, connect to MySQL or vetted CSV exports, check every visual.
-6. Record genuine per-person Git commits, run demo and fill project report from evidence.
+6. Review existing team contributions, verify the current prototype, and prepare the final demonstration.
