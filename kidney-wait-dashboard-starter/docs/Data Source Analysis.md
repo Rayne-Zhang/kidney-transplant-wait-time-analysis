@@ -29,4 +29,6 @@ Direct comparisons (e.g., Canadian donation rank of 12th vs. U.S. rank of 2nd fo
 
 <br/> **2.3 Database Schema Storage**
 
-Raw files and API responses are cleaned via Python (Pandas) and stored in normalized MySQL dimension tables (Dim_Geography, Dim_Time, Dim_Donor_Type) connected to an Observation-grain fact table to ensure 100% data traceability and query integrity
+
+The current prototype validates and transforms local synthetic CSV, JSON, and HTML inputs using Python's standard library. The processed data can be loaded into four demonstration MySQL tables. Live API ingestion, official-source verification, and the proposed dimensional database design remain future development tasks.
+
