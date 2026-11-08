@@ -12,14 +12,14 @@ The working project currently resides in the [`kidney-wait-dashboard-starter/`](
 
 | Location | Purpose |
 | --- | --- |
-| [`kidney_wait/`](kidney-wait-dashboard-starter/kidney_wait/) | Python validation, transformation, and optional MySQL loader |
-| [`data/raw/`](kidney-wait-dashboard-starter/data/raw/) | Clearly marked `DEMO_` input datasets |
-| [`build/`](kidney-wait-dashboard-starter/build/) | Generated synthetic metrics and quality report |
-| [`dashboard/app.py`](kidney-wait-dashboard-starter/dashboard/app.py) | Streamlit interactive demonstration (not Power BI) |
-| [`sql/`](kidney-wait-dashboard-starter/sql/) | MySQL 8+ schema and example queries |
-| [`powerbi/`](kidney-wait-dashboard-starter/powerbi/) | Power BI instructions; no `.pbix` has been created |
-| [`tests/`](kidney-wait-dashboard-starter/tests/) | Automated unit tests |
-| [`docs/`](kidney-wait-dashboard-starter/docs/) | Architecture, data dictionary, planned team roles, evidence checklist |
+| [`kidney_wait/`](kidney_wait/) | Python validation, transformation, and optional MySQL loader |
+| [`data/raw/`](data/raw/) | Clearly marked `DEMO_` input datasets |
+| [`build/`](build/) | Generated synthetic metrics and quality report |
+| [`dashboard/app.py`](dashboard/app.py) | Streamlit interactive demonstration (not Power BI) |
+| [`sql/`](sql/) | MySQL 8+ schema and example queries |
+| [`powerbi/`](powerbi/) | Power BI instructions; no `.pbix` has been created |
+| [`tests/`](tests/) | Automated unit tests |
+| [`docs/`](docs/) | Architecture, data dictionary, planned team roles, evidence checklist |
 
 Read the [architecture documentation](docs/ARCHITECTURE.md) for implementation details, project limitations, and next steps.
 
