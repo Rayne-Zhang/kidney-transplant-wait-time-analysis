@@ -1,0 +1,4 @@
+year,country_id,country,deceased_donor_rate_per_million,living_donor_rate_per_million,source_status
+2022,2,United States,39.2,18,SYNTHETIC_DEMO
+2023,2,United States,40,18.4,SYNTHETIC_DEMO
+2024,2,United States,40.8,18.8,SYNTHETIC_DEMO
