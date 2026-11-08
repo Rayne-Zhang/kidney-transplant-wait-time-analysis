@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "build"
 st.set_page_config(page_title="Kidney Transplant Wait-Time Prototype", page_icon="🫘", layout="wide")
 st.title("Kidney Transplant Waiting-Time Analysis")
-st.caption("Group 6 • BSMM 8730 • INITIAL, AI-ASSISTED TECHNICAL PROTOTYPE")
+st.caption("Group 6 • BSMM 8730 • Midterm Technical Prototype • Synthetic Data")
 
 required = ["provincial_metrics.csv", "national_metrics.csv", "us_metrics.csv", "policy_notes.csv", "quality_report.json"]
 missing = [name for name in required if not (OUT / name).exists()]
