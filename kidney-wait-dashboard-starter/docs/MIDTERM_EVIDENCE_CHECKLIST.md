@@ -1,24 +1,32 @@
-# D.3.1 Midterm — Evidence Checklist (as of initial starter repository)
 
-**IMPORTANT:** This repository is **new**. It cannot prove earlier GitHub work or historical progress. The team must verify the actual state before labeling tasks "Completed" in a graded report.
+# D.3.1 Midterm Project Evidence Checklist
 
-| Grading component | Weight | Evidence available from this starter | Still required |
-|---|---:|---|---|
-| Progress task breakdown | 30% | Initial architecture, task plan, staged runnable demo | Team-confirmed actual status, dependency sequencing, dates, ClickUp evidence |
-| GitHub & version control | 30% | Files ready for initial commit | Actual remote repo URL, real commit history, evidence each student's changes, meaningful commit messages |
-| Demonstration of completed work | 40% | Local ETL, local HTML parser, CSV outputs, Streamlit app, MySQL SQL examples, tests | Run and verify locally; screenshots/live demo showing actual results, MySQL table/query evidence if claiming MySQL use |
+## Project Status
 
-## Suggested live walkthrough (only after verifying on a real computer)
+Group 6 has established a GitHub repository with contributions from all three members. The midterm technical prototype includes a Python data-processing pipeline, MySQL demonstration schema, automated tests, and a Streamlit dashboard using synthetic data.
 
-1. Run `py -m unittest discover -s tests -v` and show test results.
-2. Run `py -m kidney_wait.pipeline` and show build outputs + `quality_report.json`.
-3. Run `py -m streamlit run dashboard/app.py` and filter a sample year; prominently explain **fictional demo data**.
-4. Optional: show Workbench tables/working SQL if MySQL schema was **actually installed and data loaded**.
-5. Show GitHub real repository URL, commit graph and contributors from their real account actions.
+## Assessment Evidence
 
-## Assignment deliverables (separate)
+| Assessment Component | Weight | Available Evidence | Status |
+|---|---|---|---|
+| Project Progress Breakdown | 30% | Task breakdown, completed and remaining milestones, dependencies, and midterm report | Documented |
+| GitHub and Version Control | 30% | Repository history and contributions from all three members | Documented |
+| Demonstration of Completed Work | 40% | Pipeline, SQL queries, automated tests, dashboard, and demonstration screenshots | Previously demonstrated; latest version requires testing |
 
-- D.3.1: **4-page English PDF group status report**; report body in paragraph form, no bullet-only report, describe novelty and real work.
+## Live Demonstration Checklist
+
+1. Run the Python data-processing pipeline.
+2. Execute the eight automated unit tests.
+3. Demonstrate the MySQL database and example queries.
+4. Open the Streamlit dashboard and navigate its four tabs.
+5. Show the GitHub repository and each member's real commits.
+
+## Project Limitations
+
+All current demonstration data are synthetic. Official data acquisition, cross-source validation, real-data analysis, and the final Power BI deliverable remain future project activities.
+
+The completed midterm report documents the available implementation evidence. The latest repository changes must be tested before the live demonstration.
+
 - D.3.1.1: Team contribution form as required by Brightspace; check template course header carefully.
 - D.3.2: Each member's own **minimum two-page** individual contribution report, submitted in **separate** Brightspace dropbox.
 
