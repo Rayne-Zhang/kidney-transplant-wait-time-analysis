@@ -4,7 +4,7 @@
 
 ## Overview & Purpose
 
-To evaluate provincial wait-time disparities and benchmark Canadian performance against international standards, our pipeline synthesizes open-access statistics from two primary health data repositories: the Canadian Institute for Health Information (CIHI) and the U.S. Organ Procurement and Transplantation Network / Scientific Registry of Transplant Recipients (OPTN/SRTR).
+This document reviews CIHI and OPTN/SRTR as potential sources for comparing kidney transplant waiting times in Canada and the United States. The current technical prototype uses synthetic demonstration data. Official data acquisition and analysis remain future tasks.
 
 ##
 
@@ -14,7 +14,7 @@ To evaluate provincial wait-time disparities and benchmark Canadian performance 
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Data Structure**     | Structured multi-sheet Excel & CSV aggregate data tables.                                                                                                                                    | Semi-structured JSON / REST APIs and standardized public data reports.                                                   |
 | **Coverage Period**    | Multi-year longitudinal series (2021–2025).                                                                                                                                                  | Multi-year longitudinal series (2021–2025).                                                                              |
-| **Primary Indicators** | Dialysis-to-transplant median wait time (1,351-day median national benchmark), active/hold wait-list counts, provincial organ donation rates, and donor categories (NDD, DCD, Living, MAID). | Deceased donor rates per million population (PMP), living donor rates PMP, and state-level wait-list outcome benchmarks. |
+| **Primary Indicators** | Dialysis-to-transplant median wait time , active/hold wait-list counts, provincial organ donation rates, and donor categories (NDD, DCD, Living, MAID). | Deceased donor rates per million population (PMP), living donor rates PMP, and state-level wait-list outcome benchmarks. |
 | **Credibility**        | Authoritative, government-funded national registry (Canadian Organ Replacement Register - CORR).                                                                                             | Standardized national registry maintained under HRSA/U.S. Department of Health and Human Services contract.              |
 
 # 2. Integration & Validation Notes for the Technical Pipeline
@@ -25,7 +25,7 @@ CIHI statistics report provincial medians and annual aggregate counts, whereas S
 
 <br/> **2.2  Cross-Border Comparability Rules**
 
-Direct comparisons (e.g., Canadian donation rank of 12th vs. U.S. rank of 2nd for deceased / 6th for living donors) are executed only where indicator definitions and reporting periods align. Incompatible or mismatched metrics are flagged or excluded to prevent misleading policy conclusions.
+For the final analysis, cross-border comparisons will be conducted only when indicator definitions, reporting periods, and population denominators are comparable. Incompatible metrics will be flagged or excluded.
 
 <br/> **2.3 Database Schema Storage**
 
