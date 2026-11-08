@@ -1,4 +1,0 @@
-year,country,waitlist_patients,transplants,waitlist_deaths,median_dialysis_to_transplant_years,deceased_donor_rate_per_million,living_donor_rate_per_million,source_status
-2022,Canada,7500,3300,195,4.2,24.4,13.8,SYNTHETIC_DEMO
-2023,Canada,7640,3375,202,4.1,25.0,14.1,SYNTHETIC_DEMO
-2024,Canada,7780,3450,209,4.0,25.6,14.4,SYNTHETIC_DEMO
