@@ -7,4 +7,17 @@ The following checks actually ran in the project root:
 - `python -m kidney_wait.mysql_loader`: **PASS in dry-run mode only**, identifies the four input tables and row counts, no database writes.
 - `python -m compileall -q kidney_wait dashboard tests`: **PASS** (Python syntax compilation).
 
-**Not verified in this environment:** the interactive Streamlit dashboard (the `streamlit` package is not installed), MySQL connection/loading/queries (no live MySQL server or connector in use), and any actual Power BI `.pbix` file (not created). Team members should perform and capture the real demonstrations themselves. All sample data is **SYNTHETIC**.
+
+## Additional Midterm Verification
+
+During the documented local midterm demonstration, the Python pipeline and all eight automated tests passed.
+
+The MySQL database schema, data loading process, and SQL queries were demonstrated using synthetic records.
+
+The Streamlit dashboard was opened locally, and its four main tabs were demonstrated.
+
+These results refer to the documented local demonstration. The repository has subsequently received additional changes, including data-file updates, and the latest version requires regression testing before the final live walkthrough.
+
+The final Power BI deliverable remains pending.
+
+All demonstration datasets are SYNTHETIC and must not be interpreted as official clinical or transplant statistics.
