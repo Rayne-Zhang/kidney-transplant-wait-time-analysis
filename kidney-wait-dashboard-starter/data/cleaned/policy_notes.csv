@@ -1,0 +1,5 @@
+provinceID,province,country_id,policy_note,source_status
+3,ON,1,EXAMPLE ONLY: A future verified Ontario policy page will be parsed and documented here.,SYNTHETIC_DEMO
+4,QC,1,EXAMPLE ONLY: A future verified Quebec policy page will be parsed and documented here.,SYNTHETIC_DEMO
+2,BC,1,EXAMPLE ONLY: A future verified British Columbia policy page will be parsed and documented here.,SYNTHETIC_DEMO
+1,AB,1,EXAMPLE ONLY: A future verified British Columbia policy page will be parsed and documented here.,SYNTHETIC_DEMO
