@@ -1,4 +1,4 @@
-Power BI Dashboard — Prototype & Implementation Guide
+**Power BI Dashboard — Prototype & Implementation Guide**
 
 ⚠️ DATA SCOPE & DISCLAIMER:
 
